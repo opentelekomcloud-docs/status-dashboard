@@ -22,8 +22,8 @@ html_theme_options = {
 }
 otcdocs_auto_name = False
 otcdocs_auto_version = False
-project = 'Dummy Service'  # FIXME
-otcdocs_repo_name = 'opentelekomcloud-docs/template'  # FIXME
+project = 'Status Dashboard'
+otcdocs_repo_name = 'opentelekomcloud-docs/status-dashboard'
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -147,11 +147,11 @@ html_title = "Dummy UMN"  # FIXME
 # html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'dummydoc'  # FIXME
+htmlhelp_basename = 'psddoc'
 
 latex_documents = [
     ('index',
-     'umn-dummy.tex',  # FIXME
-     u'%s User Manual Documentation' % project,
+     'umn-status-dashboard.tex',
+     u'%s User Manual' % project,
      u'OpenTelekomCloud', 'manual'),
 ]
