@@ -1,5 +1,10 @@
-==========
-Main Index
-==========
+==============================================
+Open Telekom Cloud Status Dashboard User Guide
+==============================================
 
-TODO:
+.. toctree::
+
+   dashboard
+   grafana
+   technical_overview
+   glossary
