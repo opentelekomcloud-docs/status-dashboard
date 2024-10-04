@@ -21,21 +21,22 @@ from datetime import datetime
 
 extensions = [
     'otcdocstheme',
-    'otc_sphinx_directives'
 ]
 
 otcdocs_auto_name = False
 otcdocs_auto_version = False
 
 project = 'Status Dashboard'
-otcdocs_repo_name = 'opentelekomcloud-docs/status-dashboard'
+otcdocs_repo_name = 'docs/status-dashboard'
 # Those variables are required for edit/bug links
+otcdocs_git_fqdn = 'gitea.eco.tsi-dev.otc-service.com'
+otcdocs_git_type = 'gitea'
 
 # Those variables are needed for indexing into OpenSearch
-otcdocs_doc_environment = ''
-otcdocs_doc_link = ''
-otcdocs_doc_title = ''
-otcdocs_doc_type = ''
+otcdocs_doc_environment = 'internal'
+otcdocs_doc_link = '/status-dashboard/umn/'
+otcdocs_doc_title = 'User Guide'
+otcdocs_doc_type = 'umn'
 otcdocs_service_category = 'other'
 otcdocs_service_title = 'Status Dashboard'
 otcdocs_service_type = 'sd'
@@ -90,12 +91,15 @@ html_theme = 'otcdocs'
 # further. For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
+    "disable_search": True,
+    "site_name": "Internal Documentation Portal",
+    "logo_url": "https://docs-int.otc-service.com",
 }
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "Status Dashboard - Service Based View"
+html_title = "Status Dashboard - User Guide"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -107,7 +111,12 @@ html_static_path = ['_static']
 html_copy_source = False
 
 # -- Options for PDF output --------------------------------------------------
-latex_documents = []
+latex_documents = [
+    ('index',
+     'sd-umn.tex',
+     u'Status Dashboard - User Guide',
+     u'OpenTelekomCloud', 'manual'),
+]
 
 # Get the Git commit values for last updated timestamp on each page
 repo = Repo(search_parent_directories=True)
