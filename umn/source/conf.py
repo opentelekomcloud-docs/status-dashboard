@@ -21,7 +21,6 @@ from datetime import datetime
 
 extensions = [
     'otcdocstheme',
-    'otc_sphinx_directives'
 ]
 
 otcdocs_auto_name = False
@@ -32,10 +31,10 @@ otcdocs_repo_name = 'opentelekomcloud-docs/status-dashboard'
 # Those variables are required for edit/bug links
 
 # Those variables are needed for indexing into OpenSearch
-otcdocs_doc_environment = ''
-otcdocs_doc_link = ''
-otcdocs_doc_title = ''
-otcdocs_doc_type = ''
+otcdocs_doc_environment = 'public'
+otcdocs_doc_link = '/status-dashboard/umn/'
+otcdocs_doc_title = 'User Guide'
+otcdocs_doc_type = 'umn'
 otcdocs_service_category = 'other'
 otcdocs_service_title = 'Status Dashboard'
 otcdocs_service_type = 'sd'
@@ -95,7 +94,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "Status Dashboard - Service Based View"
+html_title = "Status Dashboard - User Guide"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -108,7 +107,12 @@ templates_path = ['_templates']
 html_copy_source = False
 
 # -- Options for PDF output --------------------------------------------------
-latex_documents = []
+latex_documents = [
+    ('index',
+     'sd-umn.tex',
+     u'Status Dashboard - User Guide',
+     u'OpenTelekomCloud', 'manual'),
+]
 
 # Get the Git commit values for last updated timestamp on each page
 repo = Repo(search_parent_directories=True)
