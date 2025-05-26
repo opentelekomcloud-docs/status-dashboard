@@ -69,22 +69,12 @@ Component Availability
 .. note::
    Service outages directly impact the availability metrics.
 
-Calculation of the availability
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Availability is calculated based on the following rules:
+The Status Dashboard is designed to track and report the health and performance
+of external Open Telekom Cloud APIs. It regularly checks configured endpoints,
+collects timing and status data, and emits structured metrics to help teams
+monitor API availability, latency, and reliability.
 
-+----------------------+-----------------------------+-----------------------+
-| Category             | Service                     | Calcualation          |
-+======================+=============================+=======================+
-| Application Services | API Gateway                 |                       |
-+----------------------+-----------------------------+-----------------------+
-|                      | Distributed Message Service |                       |
-+----------------------+-----------------------------+-----------------------+
-|                      | Simple Message Notification |                       |
-+----------------------+-----------------------------+-----------------------+
-|                      | DataArts Studio             |                       |
-+----------------------+-----------------------------+-----------------------+
 
 OTC App
 -------
