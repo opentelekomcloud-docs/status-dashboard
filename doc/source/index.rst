@@ -32,6 +32,8 @@ Services are grouped into categories such as **Compute**, **Network**, or **Stor
 
 -  |image6| **Blue wrench:** Ongoing maintenance
 
+-  |image11| **Information:** Inform about relevant product information
+
 Auto-update / refresh of the dashboard
 --------------------------------------
 
@@ -149,3 +151,9 @@ Tips for Effective Use
    :align: top
    :width: 0.30411in
    :height: 0.25783in
+.. |image11| image:: /_static/images/image11.png
+   :target: /status-dashboard/_images/image11.png
+   :alt: image11.png
+   :align: top
+   :width: 0.33411in
+   :height: 0.3783in
