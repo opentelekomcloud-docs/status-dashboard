@@ -1,9 +1,9 @@
-======================================================
-User Guide for the Open Telekom Cloud Status Dashboard
-======================================================
+==================================================
+User Guide for the T Cloud Public Status Dashboard
+==================================================
 
-| Welcome to the Open Telekom Cloud Status Dashboard - Your go-to resource for monitoring the availability of various components across different regions.
-| This guide is tailored for IT professionals to help navigate the platform and extract valuable insights from the Open Telekom Cloud.
+| Welcome to the T Cloud Public Status Dashboard - Your go-to resource for monitoring the availability of various components across different regions.
+| This guide is tailored for IT professionals to help navigate the platform and extract valuable insights from the T Cloud Public.
 
 Accessing the Status Website
 ----------------------------
@@ -73,15 +73,15 @@ Component Availability
 
 
 The Status Dashboard is designed to track and report the health and performance
-of external Open Telekom Cloud APIs. It regularly checks configured endpoints,
+of external T Cloud Public APIs. It regularly checks configured endpoints,
 collects timing and status data, and emits structured metrics to help teams
 monitor API availability, latency, and reliability.
 
 
-OTC App
--------
+T Cloud Public App
+------------------
 
-Another method is to use the `Open Telekom Cloud App <https://www.open-telekom-cloud.com/en/support/app>`__, which allows you to receive push notifications in case of status changes.
+Another method is to use the `T Cloud Public App <https://public.t-cloud.com/en/support/app>`__, which allows you to receive push notifications in case of status changes.
 
 Tips for Effective Use
 ----------------------
@@ -92,7 +92,7 @@ Tips for Effective Use
 
 -  **Customize notifications** by region and service using the platform's alert settings.
 
-| Thank you for using **Open Telekom Cloud**.
+| Thank you for using **T Cloud Public**.
 | If you have any questions or encounter any issues, our support team is here to help.
 
 **Happy monitoring!**
