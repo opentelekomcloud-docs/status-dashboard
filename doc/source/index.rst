@@ -78,6 +78,55 @@ collects timing and status data, and emits structured metrics to help teams
 monitor API availability, latency, and reliability.
 
 
+
+What We Monitor (Monitoring Targets & Methodology)
+--------------------------------------------------
+
+The T Cloud Public Status Dashboard continuously monitors the health and performance of cloud services by actively querying their external APIs.
+
+Monitoring Approach
+~~~~~~~~~~~~~~~~~~~
+
+Each cloud service is associated with a set of **Query APIs** that are regularly triggered to assess service health.
+
+What is Measured
+~~~~~~~~~~~~~~~~
+
+The system evaluates multiple indicators:
+
+- **Response Status Codes**  
+  Determines whether requests succeed or fail
+
+- **Response Time (Latency)**  
+  Measures how quickly services respond
+
+- **Availability (Reachability)**  
+  Detects whether the service responds at all
+
+- **Success Rate**  
+  Percentage of successful responses over time
+
+- **Threshold Compliance**  
+  Identifies when response times exceed defined limits
+
+How Status Is Determined
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Service status is calculated based on:
+
+- Failure rates exceeding acceptable thresholds
+- Increased latency beyond defined limits
+- Complete lack of response from endpoints
+
+These signals are aggregated into the status indicators shown on the dashboard.
+
+What This Means for You
+~~~~~~~~~~~~~~~~~~~~~~~
+
+- Status reflects **real user-facing API behavior**
+- Monitoring is **active (synthetic checks)**, not just internal signals
+- Performance degradation is detected **before full outages occur**
+
 T Cloud Public App
 ------------------
 
