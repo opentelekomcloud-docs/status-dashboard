@@ -80,7 +80,7 @@ monitor API availability, latency, and reliability.
 
 
 What We Monitor (Monitoring Targets & Methodology)
--------------------------------------------------
+--------------------------------------------------
 
 The T Cloud Public Status Dashboard continuously monitors the health and performance of cloud services by actively querying their external APIs.
 
