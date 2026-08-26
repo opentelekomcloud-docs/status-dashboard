@@ -77,6 +77,10 @@ of external T Cloud Public APIs. It regularly checks configured endpoints,
 collects timing and status data, and emits structured metrics to help teams
 monitor API availability, latency, and reliability.
 
+Swagger API
+-----------
+
+For access all available, public APIs use the Swagger application under `https://api.status.otc-service.com/swagger/<https://api.status.otc-service.com/swagger/>`__
 
 T Cloud Public App
 ------------------
