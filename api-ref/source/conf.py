@@ -27,20 +27,18 @@ otcdocs_auto_name = False
 otcdocs_auto_version = False
 
 project = 'Status Dashboard'
-otcdocs_repo_name = 'docs/status-dashboard'
+otcdocs_repo_name = 'opentelekomcloud-docs/status-dashboard'
 # Those variables are required for edit/bug links
-otcdocs_git_fqdn = 'gitea.eco.tsi-dev.otc-service.com'
-otcdocs_git_type = 'gitea'
 
 # Those variables are needed for indexing into OpenSearch
-otcdocs_doc_environment = 'internal'
+otcdocs_doc_environment = 'public'
 otcdocs_doc_link = '/status-dashboard/api-ref/'
 otcdocs_doc_title = 'API Reference'
 otcdocs_doc_type = 'api-ref'
 otcdocs_service_category = 'other'
 otcdocs_service_title = 'Status Dashboard'
 otcdocs_service_type = 'sd'
-otcdocs_service_environment = 'internal'
+otcdocs_service_environment = 'public'
 otcdocs_cloud_environment = 'eu_de'
 otcdocs_search_environment = 'hc_de'
 otcdocs_search_index = 'search_index_de'
@@ -94,9 +92,7 @@ html_theme = 'otcdocs'
 # further. For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    "disable_search": True,
-    "site_name": "Internal Documentation Portal",
-    "logo_url": "https://docs-int.otc-service.com",
+    "logo_url": "https://docs.otc.t-systems.com",
 }
 
 # The name for this set of Sphinx documents.  If None, it defaults to
